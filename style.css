@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Poiret One', cursive;
+}
+
+h2 {
+	text-align: center;
+	color: #fff;
+	font-size: 5rem;
+}
+.landing {
+	width: 100%;
+	background-image: url("aquascape.jpg");
+	background-position: center;
+}
+
+.overlay,
+.landing {
+	height: 100vh;
+}
+
+.overlay {
+	background: #1a1a1ac9;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form .button {
+	width: 300px;
+	height: 80px;
+	border: none;
+	border-radius: 50px;
+	color: #414141;
+	font-weight: bold;
+	font-size: 1rem;
+	background: #ffffff;
+	transition: 1s;
+	cursor: pointer;
+	margin-top: 300px;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form .button:hover {
+	color: #fff;
+	background: #414141;
+	transform: translateY(-5px);
+}
